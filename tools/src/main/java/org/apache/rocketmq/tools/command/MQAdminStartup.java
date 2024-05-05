@@ -118,6 +118,12 @@ public class MQAdminStartup {
         System.setProperty(RemotingCommand.REMOTING_VERSION_KEY, Integer.toString(MQVersion.CURRENT_VERSION));
 
         //PackageConflictDetect.detectFastjson();
+//        args[0]="updateTopic";
+//        args[1]="-b";
+//        args[2]="172.16.0.11:8081";
+//        args[3]="-t";
+//        args[4]="zhangyj_topic";
+//        updateTopic  -b 172.16.0.11:8081 -t zhangyj_topic
 
         initCommand();
 
