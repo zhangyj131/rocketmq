@@ -78,7 +78,7 @@ public class DefaultLitePullConsumer extends ClientConfig implements LitePullCon
     /**
      * Message queue listener
      */
-    private MessageQueueListener messageQueueListener;
+    private MessageQueueListener messageQueueListener;//org.apache.rocketmq.client.impl.consumer.DefaultLitePullConsumerImpl.MessageQueueListenerImpl
     /**
      * Offset Storage
      */
